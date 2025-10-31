@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "./Login.css";
 
-function Login() {
+// ✅ Replace this with your actual Render backend URL
+const API_BASE_URL = "https://msd-project-85p7.onrender.com";
+
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -16,7 +19,7 @@ function Login() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/users/login", {
+      const response = await fetch(`${API_BASE_URL}/api/users/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -25,7 +28,7 @@ function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        // Store JWT token and user info in localStorage
+        // ✅ Store JWT token and user info in localStorage
         localStorage.setItem("token", data.token);
         localStorage.setItem("user", JSON.stringify(data.user));
 
@@ -65,6 +68,6 @@ function Login() {
       </div>
     </div>
   );
-}
+};
 
 export default Login;

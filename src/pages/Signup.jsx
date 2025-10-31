@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "./Signup.css";
 
-function Signup() {
+// ✅ Replace this with your actual Render backend URL
+const API_BASE_URL = "https://msd-project-85p7.onrender.com";
+
+const Signup = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -17,7 +20,7 @@ function Signup() {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/users/signup", {
+      const response = await fetch(`${API_BASE_URL}/api/users/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: username, email, password }),
@@ -68,6 +71,6 @@ function Signup() {
       </div>
     </div>
   );
-}
+};
 
 export default Signup;
