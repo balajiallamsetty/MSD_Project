@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import "./Signup.css";
 
 // ✅ Replace this with your actual Render backend URL
-const API_BASE_URL = "https://msd-project-85p7.onrender.com";
+const API_BASE_URL = "https://msd-project-0xwv.onrender.com";
 
 const Signup = () => {
   const [username, setUsername] = useState("");
