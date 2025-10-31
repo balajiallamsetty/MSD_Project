@@ -1,0 +1,99 @@
+.login-page {
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #e8c0ff 0%, #ffe2b7 40%, #89d8fc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  overflow: auto;
+}
+
+.login {
+  background: rgba(255,255,255,0.27);
+  border-radius: 18px;
+  padding: 60px 72px 40px 72px;
+  min-width: 480px;
+  max-width: 540px;
+  box-shadow: 0 8px 32px 0 rgba(39,121,226,0.11);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(12px);
+  position: relative;
+  z-index: 1;
+}
+
+.login h2 {
+  margin-bottom: 28px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #2779e2;
+  letter-spacing: 1px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  margin-bottom: 22px;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #f5f8fd;
+  font-size: 1.18rem;
+  box-shadow: 0 2px 10px rgba(39,121,226,0.03);
+  transition: box-shadow 0.2s, background 0.2s;
+  outline: none;
+  color: black;
+}
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  background: #eaf2fc;
+  box-shadow: 0 4px 20px rgba(39, 121, 226, 0.12);
+}
+
+.login button[type="submit"] {
+  background: linear-gradient(100deg, #2779e2 0%, #e88532 100%);
+  color: #fff;
+  font-size: 1.20rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 0;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 18px rgba(39, 121, 226, 0.16);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.login button[type="submit"]:hover {
+  background: linear-gradient(100deg, #1855a5 0%, #cc6b27 100%);
+  box-shadow: 0 8px 24px rgba(39, 121, 226, 0.19);
+}
+
+.login p {
+  margin-top: 32px;
+  font-size: 1.1rem;
+  color: #687687;
+}
+
+.login a {
+  color: #e88532;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.login a:hover {
+  color: #2779e2;
+  text-decoration: underline;
+}

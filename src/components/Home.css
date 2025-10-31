@@ -1,0 +1,68 @@
+.home-info {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 44px 32px 32px 32px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(39,121,226,0.10);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Reduce overly large elements */
+.app-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: none;
+  color: #2779e2;
+  margin-bottom: 12px;
+}
+
+.app-hero, .features-overview, .motivational-panel, .support-info {
+  margin-bottom: 24px;
+}
+
+/* Feature list clean visuals */
+.features-overview ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-overview li {
+  font-size: 1rem;
+  color: #1855a5;
+  margin: 5px 0;
+  padding-left: 7px;
+}
+
+.motivational-panel {
+  background: #eef6fb;
+  border-radius: 12px;
+  padding: 16px 14px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(232,133,50,0.04);
+}
+
+.motivational-panel h3 {
+  font-size: 1.1rem;
+  color: #2779e2;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.motivational-panel .quote {
+  font-style: italic;
+  color: #e88532;
+  font-size: 1rem;
+  margin-top: 9px;
+}
+
+.support-info {
+  text-align: right;
+  font-size: 0.98rem;
+  color: #555b61;
+  margin-top: 8px;
+}

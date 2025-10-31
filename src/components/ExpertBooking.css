@@ -1,0 +1,155 @@
+.card {
+  max-width: 540px;
+  margin: 56px auto 40px auto;
+  background: rgba(255,255,255,0.96);
+  border-radius: 22px;
+  box-shadow: 0 8px 34px rgba(39,121,226,0.14), 0 2px 18px rgba(232,133,50,0.09);
+  padding: 44px 38px 34px 38px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 24px;
+  left: 28px;
+  background: transparent;
+  border: none;
+  color: #2779e2;
+  font-size: 1.10rem;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.17s;
+  padding: 0;
+}
+
+.back-btn:hover {
+  color: #e88532;
+  text-decoration: underline;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #e88532 15%, #2779e2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card p {
+  text-align: center;
+  font-size: 1.12rem;
+  color: #555b61;
+  margin-bottom: 18px;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-bottom: 20px;
+  background: rgba(231,237,255,0.13);
+  border-radius: 10px;
+  padding: 18px 16px;
+}
+
+.card label {
+  font-weight: 600;
+  color: #1855a5;
+  margin-bottom: 2px;
+  font-size: 1rem;
+}
+
+.card select,
+.card input[type="date"] {
+  margin-top: 5px;
+  background: #f6f9ff;
+  border: 1.5px solid #9ec5f5;
+  border-radius: 7px;
+  padding: 8px 14px;
+  font-size: 1rem;
+  color: #2779e2;
+  margin-bottom: 10px;
+  font-weight: 500;
+  outline: none;
+}
+
+.card button[type="submit"] {
+  background: linear-gradient(90deg, #2779e2 25%, #e88532 100%);
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 0;
+  font-size: 1.09rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(39,121,226,0.09);
+  transition: background 0.19s, box-shadow 0.16s;
+}
+
+.card button[type="submit"]:hover {
+  background: linear-gradient(90deg, #e88532 15%, #2779e2 100%);
+  box-shadow: 0 4px 16px rgba(232,133,50,0.14);
+}
+
+.card h4 {
+  color: #1855a5;
+  font-weight: 800;
+  margin-bottom: 12px;
+  text-align: left;
+  font-size: 1.12rem;
+}
+
+.card ul {
+  list-style-type: none;
+  background: rgba(246,249,255,0.83);
+  border-radius: 13px;
+  margin: 10px 0 0 0;
+  padding: 16px 25px 16px 31px;
+  font-size: 1.05rem;
+  color: #2d475b;
+  font-weight: 500;
+  box-shadow: 0 2px 7px rgba(232,133,50,0.07);
+}
+
+.card ul li {
+  margin-bottom: 19px;
+  position: relative;
+  background: rgba(232, 133, 50, 0.045);
+  border-radius: 7px;
+  padding: 12px;
+  box-shadow: 0 1px 2px rgba(39,121,226,0.04);
+}
+
+.card ul li strong {
+  color: #2779e2;
+  font-weight: 700;
+}
+
+.card ul li b {
+  color: #e88532;
+}
+
+.card ul li button {
+  background: linear-gradient(90deg, #e88532 70%, #2779e2 120%);
+  color: #fff;
+  margin-top: 7px;
+  margin-left: 9px;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.94rem;
+  padding: 6px 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.17s, box-shadow 0.17s;
+  box-shadow: 0 2px 6px rgba(39,121,226,0.13);
+}
+
+.card ul li button:hover {
+  background: linear-gradient(90deg, #2779e2 30%, #e88532 100%);
+}
