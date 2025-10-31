@@ -23,7 +23,8 @@ const Signup = () => {
       const response = await fetch(`${API_BASE_URL}/api/users/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: username, email, password }),
+        // ✅ fixed: use 'username' instead of 'name'
+        body: JSON.stringify({ username, email, password }),
       });
 
       const data = await response.json();

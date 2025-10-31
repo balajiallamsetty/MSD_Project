@@ -28,9 +28,8 @@ const Login = () => {
       const data = await response.json();
 
       if (response.ok) {
-        // ✅ Store JWT token and user info in localStorage
+        // ✅ Only store the token (since backend doesn't send user data)
         localStorage.setItem("token", data.token);
-        localStorage.setItem("user", JSON.stringify(data.user));
 
         alert("Login successful!");
         navigate("/dashboard");
