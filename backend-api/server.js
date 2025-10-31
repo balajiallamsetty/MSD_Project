@@ -11,12 +11,15 @@ connectDB();
 
 const app = express();
 
-// ✅ Allow requests from your React frontend
+// ✅ Allow requests from both local and deployed frontends
 app.use(
   cors({
-    origin: "http://localhost:5173", // React app running on Vite
+    origin: [
+      "http://localhost:5173",              // local development
+      "https://msd-project-pied.vercel.app" // deployed frontend on Vercel
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true, // allows cookies/tokens
+    credentials: true,
   })
 );
 
@@ -31,7 +34,7 @@ app.get("/", (req, res) => {
   res.send("API is running successfully 🚀");
 });
 
-// ✅ Error Handling Middleware (optional but useful)
+// ✅ Error Handling Middleware
 app.use((err, req, res, next) => {
   console.error("Error:", err.stack);
   res.status(500).json({ message: "Something went wrong!" });
