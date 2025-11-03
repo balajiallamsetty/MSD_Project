@@ -1,0 +1,31 @@
+.card.about {
+  max-width: 480px;
+  margin: 70px auto;
+  background: rgba(255,255,255,0.95);
+  border-radius: 22px;
+  box-shadow: 0 8px 34px rgba(39,121,226,0.13), 0 2px 18px rgba(232,133,50,0.08);
+  padding: 40px 32px 34px 32px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+.card.about h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #2779e2;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #e88532 0%, #2779e2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card.about p {
+  font-size: 1.08rem;
+  color: #555b61;
+  font-weight: 500;
+  margin-top: 7px;
+  letter-spacing: 0.2px;
+  line-height: 1.42;
+}

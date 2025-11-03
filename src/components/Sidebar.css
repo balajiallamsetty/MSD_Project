@@ -1,0 +1,190 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 230px;
+  background: linear-gradient(160deg, #2779e2 0%, #89d8fc 80%);
+  box-shadow: 2px 0 24px rgba(39,121,226,0.11);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 36px 0 20px 0;
+}
+
+.nutricoach-logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #e88532 10%, #fff 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin-top: 60px;
+}
+
+.sidebar-link {
+  color: #fff;
+  font-size: 1.15rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 7px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-link:hover {
+  background: #e88532;
+  color: #1a3255;
+}
+
+.sidebar-profile {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #eaf2fc;
+  border-radius: 14px;
+  padding: 12px 18px;
+  box-shadow: 0 2px 16px rgba(39,121,226,0.07);
+  text-decoration: none;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.profile-card:hover {
+  background: #ffe2b7;
+  box-shadow: 0 4px 18px rgba(232,133,50,0.09);
+}
+
+.profile-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 1.06rem;
+  color: #2779e2;
+  font-weight: 600;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 230px;
+  background: linear-gradient(160deg, #2779e2 0%, #89d8fc 80%);
+  box-shadow: 2px 0 24px rgba(39,121,226,0.11);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 36px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  background: linear-gradient(90deg, #e88532 10%, #fff 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-link {
+  color: #fff;
+  font-size: 1.15rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 180px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background: #e88532;
+  color: #1a3255;
+}
+
+.sidebar-profile {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #eaf2fc;
+  border-radius: 14px;
+  padding: 12px 18px;
+  box-shadow: 0 2px 16px rgba(39,121,226,0.07);
+  text-decoration: none;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.profile-card:hover {
+  background: #ffe2b7;
+  box-shadow: 0 4px 18px rgba(232,133,50,0.09);
+}
+
+.profile-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 1.1rem;
+  color: #2779e2;
+  font-weight: 600;
+}

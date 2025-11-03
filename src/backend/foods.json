@@ -1,0 +1,332 @@
+[
+  {
+    "food": "Idli",
+    "calories": 58,
+    "protein": 2,
+    "carbs": 12,
+    "fat": 0,
+    "category": "breakfast",
+    "cuisine": "Indian",
+    "main_ingredients": ["rice", "urad dal", "salt", "water"]
+  },
+  {
+    "food": "Dosa",
+    "calories": 133,
+    "protein": 3,
+    "carbs": 18,
+    "fat": 5,
+    "category": "breakfast",
+    "cuisine": "Indian",
+    "main_ingredients": ["rice", "urad dal", "fenugreek seeds", "oil", "salt"]
+  },
+  {
+    "food": "Upma",
+    "calories": 120,
+    "protein": 3,
+    "carbs": 20,
+    "fat": 4,
+    "category": "breakfast",
+    "cuisine": "Indian",
+    "main_ingredients": ["semolina (rava)", "onion", "green chili", "ginger", "oil", "curry leaves"]
+  },
+  {
+    "food": "Paratha",
+    "calories": 260,
+    "protein": 6,
+    "carbs": 36,
+    "fat": 10,
+    "category": "breakfast",
+    "cuisine": "Indian",
+    "main_ingredients": ["wheat flour", "oil/ghee", "salt", "water"]
+  },
+  {
+    "food": "Poha",
+    "calories": 180,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 5,
+    "category": "breakfast",
+    "cuisine": "Indian",
+    "main_ingredients": ["flattened rice", "onion", "green chili", "turmeric", "curry leaves", "peanuts"]
+  },
+  {
+    "food": "Chole Bhature",
+    "calories": 450,
+    "protein": 12,
+    "carbs": 60,
+    "fat": 20,
+    "category": "breakfast",
+    "cuisine": "Indian",
+    "main_ingredients": ["chickpeas", "tomato", "onion", "spices", "maida flour", "yogurt"]
+  },
+  {
+    "food": "Paneer Butter Masala",
+    "calories": 400,
+    "protein": 14,
+    "carbs": 18,
+    "fat": 30,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["paneer", "tomato", "butter", "cream", "spices"]
+  },
+  {
+    "food": "Dal Tadka",
+    "calories": 180,
+    "protein": 10,
+    "carbs": 20,
+    "fat": 6,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["toor dal", "onion", "tomato", "garlic", "ghee", "spices"]
+  },
+  {
+    "food": "Rajma Chawal",
+    "calories": 320,
+    "protein": 12,
+    "carbs": 55,
+    "fat": 5,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["rajma (kidney beans)", "rice", "tomato", "onion", "spices"]
+  },
+  {
+    "food": "Chicken Biryani",
+    "calories": 480,
+    "protein": 25,
+    "carbs": 60,
+    "fat": 16,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["basmati rice", "chicken", "yogurt", "onion", "spices"]
+  },
+  {
+    "food": "Veg Pulao",
+    "calories": 300,
+    "protein": 7,
+    "carbs": 50,
+    "fat": 8,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["basmati rice", "vegetables", "onion", "spices"]
+  },
+  {
+    "food": "Palak Paneer",
+    "calories": 280,
+    "protein": 12,
+    "carbs": 14,
+    "fat": 20,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["spinach", "paneer", "onion", "tomato", "spices"]
+  },
+  {
+    "food": "Roti",
+    "calories": 70,
+    "protein": 3,
+    "carbs": 15,
+    "fat": 0,
+    "category": "lunch",
+    "cuisine": "Indian",
+    "main_ingredients": ["wheat flour", "water", "salt"]
+  },
+  {
+    "food": "Fish Curry",
+    "calories": 260,
+    "protein": 22,
+    "carbs": 5,
+    "fat": 16,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["fish", "onion", "tomato", "coconut milk", "spices"]
+  },
+  {
+    "food": "Mutton Rogan Josh",
+    "calories": 420,
+    "protein": 28,
+    "carbs": 8,
+    "fat": 30,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["mutton", "onion", "yogurt", "spices", "ghee"]
+  },
+  {
+    "food": "Masoor Dal",
+    "calories": 180,
+    "protein": 11,
+    "carbs": 25,
+    "fat": 3,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["masoor dal (red lentils)", "onion", "tomato", "garlic", "spices"]
+  },
+  {
+    "food": "Stuffed Capsicum",
+    "calories": 190,
+    "protein": 7,
+    "carbs": 20,
+    "fat": 9,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["capsicum", "potato/paneer stuffing", "onion", "spices"]
+  },
+  {
+    "food": "Paneer Tikka",
+    "calories": 300,
+    "protein": 18,
+    "carbs": 12,
+    "fat": 20,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["paneer", "yogurt", "spices", "capsicum", "onion"]
+  },
+  {
+    "food": "Hyderabadi Biryani",
+    "calories": 500,
+    "protein": 26,
+    "carbs": 62,
+    "fat": 18,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["basmati rice", "mutton/chicken", "fried onion", "yogurt", "spices"]
+  },
+  {
+    "food": "Dal Makhani",
+    "calories": 330,
+    "protein": 14,
+    "carbs": 30,
+    "fat": 18,
+    "category": "dinner",
+    "cuisine": "Indian",
+    "main_ingredients": ["whole urad dal", "rajma", "tomato", "cream", "butter", "spices"]
+  },
+  {
+    "food": "Samosa",
+    "calories": 260,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 12,
+    "category": "snack",
+    "cuisine": "Indian",
+    "main_ingredients": ["maida flour", "potato", "peas", "spices", "oil"]
+  },
+  {
+    "food": "Pakora",
+    "calories": 190,
+    "protein": 6,
+    "carbs": 18,
+    "fat": 10,
+    "category": "snack",
+    "cuisine": "Indian",
+    "main_ingredients": ["besan (gram flour)", "onion/potato", "spices", "oil"]
+  },
+  {
+    "food": "Bhel Puri",
+    "calories": 150,
+    "protein": 3,
+    "carbs": 28,
+    "fat": 3,
+    "category": "snack",
+    "cuisine": "Indian",
+    "main_ingredients": ["puffed rice", "sev", "onion", "tomato", "tamarind chutney", "green chutney"]
+  },
+  {
+    "food": "Pani Puri",
+    "calories": 210,
+    "protein": 4,
+    "carbs": 34,
+    "fat": 6,
+    "category": "snack",
+    "cuisine": "Indian",
+    "main_ingredients": ["puri", "potato", "onion", "spiced water", "chutneys"]
+  },
+  {
+    "food": "Masala Dhokla",
+    "calories": 160,
+    "protein": 6,
+    "carbs": 22,
+    "fat": 4,
+    "category": "snack",
+    "cuisine": "Indian",
+    "main_ingredients": ["besan (gram flour)", "yogurt", "green chili", "mustard seeds", "curry leaves"]
+  },
+  {
+    "food": "Vada Pav",
+    "calories": 300,
+    "protein": 8,
+    "carbs": 40,
+    "fat": 12,
+    "category": "snack",
+    "cuisine": "Indian",
+    "main_ingredients": ["pav (bread)", "potato", "garlic", "spices", "chutney"]
+  },
+  {
+    "food": "Pizza Margherita",
+    "calories": 270,
+    "protein": 11,
+    "carbs": 33,
+    "fat": 10,
+    "category": "dinner",
+    "cuisine": "Italian",
+    "main_ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"]
+  },
+  {
+    "food": "Burger",
+    "calories": 350,
+    "protein": 15,
+    "carbs": 40,
+    "fat": 16,
+    "category": "lunch",
+    "cuisine": "American",
+    "main_ingredients": ["burger bun", "beef/chicken patty", "cheese", "lettuce", "tomato", "onion"]
+  },
+  {
+    "food": "Sushi",
+    "calories": 200,
+    "protein": 8,
+    "carbs": 28,
+    "fat": 5,
+    "category": "lunch",
+    "cuisine": "Japanese",
+    "main_ingredients": ["sushi rice", "nori", "fish/vegetables", "soy sauce", "vinegar"]
+  },
+  {
+    "food": "Tacos",
+    "calories": 250,
+    "protein": 12,
+    "carbs": 26,
+    "fat": 10,
+    "category": "dinner",
+    "cuisine": "Mexican",
+    "main_ingredients": ["taco shell", "chicken/beef", "lettuce", "tomato", "cheese", "salsa"]
+  },
+  {
+    "food": "Falafel Wrap",
+    "calories": 320,
+    "protein": 14,
+    "carbs": 35,
+    "fat": 12,
+    "category": "lunch",
+    "cuisine": "Middle Eastern",
+    "main_ingredients": ["falafel", "pita bread", "hummus", "lettuce", "tomato", "tahini"]
+  },
+  {
+    "food": "Caesar Salad",
+    "calories": 180,
+    "protein": 7,
+    "carbs": 10,
+    "fat": 12,
+    "category": "lunch",
+    "cuisine": "Italian",
+    "main_ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"]
+  },
+  {
+    "food": "Pad Thai",
+    "calories": 400,
+    "protein": 15,
+    "carbs": 50,
+    "fat": 14,
+    "category": "dinner",
+    "cuisine": "Thai",
+    "main_ingredients": ["rice noodles", "egg", "shrimp/chicken", "peanuts", "bean sprouts", "tamarind sauce"]
+  }
+]
