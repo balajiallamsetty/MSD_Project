@@ -6,7 +6,7 @@ import "./Dashboard.css";
 // Use the same API base as Login/Signup (update to local URL for dev if needed)
 const API_BASE_URL =
   import.meta.env.VITE_API_URL ||
-  (import.meta.env.DEV ? 'http://localhost:5000' : 'https://msd-project-lim3.onrender.com');
+  (import.meta.env.DEV ? 'http://localhost:5000' : 'https://msd-project-weab.onrender.com');
 
 
 const Dashboard = () => {

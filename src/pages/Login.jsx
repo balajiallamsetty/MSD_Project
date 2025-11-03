@@ -4,7 +4,7 @@ import "./Login.css";
 
 const API_BASE_URL =
   import.meta.env.VITE_API_URL ||
-  (import.meta.env.DEV ? 'http://localhost:5000' : 'https://msd-project-lim3.onrender.com');
+  (import.meta.env.DEV ? 'http://localhost:5000' : 'https://msd-project-weab.onrender.com');
 
 
 const Login = () => {
